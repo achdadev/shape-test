@@ -1,6 +1,6 @@
 ﻿using ShapeTest.Models;
 
-namespace ShapeTest.Service.Impl
+namespace ShapeTest.Services.Impl
 {
     public class ShapeManager : IShapeManager
     {
@@ -10,7 +10,8 @@ namespace ShapeTest.Service.Impl
             var isExist = Data.Where(s => s.Id == shape.Id).Any();
             if (isExist)
             {
-                throw new Exception("The element already exist");
+                Console.WriteLine($"The shape with id {shape.Id} already exist");
+                return null;
             }
             Data.Add(shape);
             return shape;
@@ -100,7 +101,13 @@ namespace ShapeTest.Service.Impl
             if (isExist)
             {
                 var shape = Data.Where(s => s.Id == id).First();
-                Console.WriteLine($"Shape informarion: Id:{shape.Id} Width: {shape.Width} Height:  {shape.Height}  AmountOfSides:  {shape.AmountOfSides} Position:  {shape.Position[0]}, {shape.Position[1]}, {shape.Position[2]} Scale:  {shape.Scale} Rotation:  {shape.Rotation}");
+                Console.WriteLine($"Shape Id:{shape.Id} information :\n" +
+                    $" Width: {shape.Width}\n" +
+                    $" Height:  {shape.Height} \n" +
+                    $" AmountOfSides:  {shape.AmountOfSides} \n" +
+                    $" Position:  {shape.Position[0]}, {shape.Position[1]}, {shape.Position[2]} \n" +
+                    $" Scale:  {shape.Scale} \n" +
+                    $" Rotation:  {shape.Rotation[0]}, {shape.Rotation[1]}, {shape.Rotation[2]} \n");
             }
             else
             {
@@ -108,5 +115,12 @@ namespace ShapeTest.Service.Impl
             }
         }
 
+        public void PrintAllShapesInformation()
+        {
+            foreach (var shape in Data)
+            {
+                PrintInformation(shape.Id);
+            }
+        }
     }
 }
