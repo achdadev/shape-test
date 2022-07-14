@@ -1,0 +1,15 @@
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\bin\Debug\net6.0\ShapeTest.exe
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\bin\Debug\net6.0\ShapeTest.deps.json
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\bin\Debug\net6.0\ShapeTest.runtimeconfig.json
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\bin\Debug\net6.0\ShapeTest.dll
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\bin\Debug\net6.0\ShapeTest.pdb
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.csproj.AssemblyReference.cache
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.AssemblyInfoInputs.cache
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.AssemblyInfo.cs
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.csproj.CoreCompileInputs.cache
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.dll
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\refint\ShapeTest.dll
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.pdb
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ShapeTest.genruntimeconfig.cache
+C:\Users\ayoub.achda\source\repos\ShapeTest\ShapeTest\obj\Debug\net6.0\ref\ShapeTest.dll
