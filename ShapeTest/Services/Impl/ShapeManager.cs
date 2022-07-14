@@ -24,6 +24,7 @@ namespace ShapeTest.Services.Impl
             {
                 var shapeToDelete = Data.Where(s => s.Id == id).First();
                 Data.Remove(shapeToDelete);
+                return true;
             }
             return false;
         }
